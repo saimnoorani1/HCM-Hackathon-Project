@@ -1,8 +1,9 @@
-{
+ {
   "name": "hcm-lite",
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "engines": { "node": "22.x" },
   "scripts": {
     "dev": "next dev",
     "build": "next build --webpack",
