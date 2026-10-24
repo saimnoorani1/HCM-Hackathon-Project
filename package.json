@@ -1,9 +1,8 @@
- {
+{
   "name": "hcm-lite",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "engines": { "node": "22.x" },
   "scripts": {
     "dev": "next dev",
     "build": "next build --webpack",
@@ -12,7 +11,7 @@
   },
   "dependencies": {
     "firebase": "^13.1.0",
-    "firebase-admin": "^14.5.0",
+    "firebase-admin": "13.10.0",
     "jspdf": "^4.2.1",
     "next": "^16.4.3",
     "papaparse": "^5.7.0",
@@ -23,5 +22,11 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.3",
     "tailwindcss": "^4.3.3"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "overrides": {
+    "jose": "4.15.9"
   }
 }
